@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Block } from "jsxstyle";
 import logo from './logo.svg';
 import './App.css';
 
@@ -8,10 +9,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            HELLO 
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
+          <Block backgroundColor="blue"> Hello </Block>
           <a
             className="App-link"
             href="https://reactjs.org"
